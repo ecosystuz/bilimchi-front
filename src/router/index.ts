@@ -1,0 +1,24 @@
+import { createRouter, createWebHistory } from 'vue-router'
+import LDefault from '../layouts/LDefault.vue'
+
+const routes = [
+  {
+    path: '/',
+    name: 'layout',
+    component: LDefault,
+    children: [
+        {
+            path: '/',
+            name: 'home',
+            component: ()=> import('../views/HomeView.vue')
+        }
+    ]
+  },
+]
+
+const router = createRouter({
+  history: createWebHistory(), 
+  routes
+})
+
+export default router
