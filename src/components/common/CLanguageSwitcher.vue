@@ -28,13 +28,13 @@
             :key="lang.code"
             @click="selectLang(lang)"
             class="group w-full flex items-center justify-between px-4 py-2.5 text-sm font-medium rounded-xl transition-all duration-200 hover:bg-[#3D3BFF] hover:text-white"
-            :class="currentLang === lang.code ? 'text-[#3D3BFF]' : 'text-gray-700'"
+            :class="locale === lang.locale ? 'text-[#3D3BFF]' : 'text-gray-700'"
           >
             <span>{{ lang.name }}</span>
             
             <span 
               class="w-1.5 h-1.5 rounded-full transition-all duration-300"
-              :class="currentLang === lang.code ? 'bg-white scale-100' : 'bg-transparent scale-0'"
+              :class="locale === lang.locale ? 'bg-white scale-100' : 'bg-transparent scale-0'"
             ></span>
           </button>
         </div>
@@ -44,24 +44,32 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted, computed } from 'vue';
+import { useI18n } from 'vue-i18n';
+import { LOCALE_STORAGE_KEY } from '../../i18n';
 
 const isOpen = ref(false);
-const currentLang = ref('RU');
 const dropdownRef = ref(null);
+const { locale } = useI18n();
 
 const languages = [
-  { name: "O'zbekcha", code: 'UZ' },
-  { name: "Русский", code: 'RU' },
-  { name: "English", code: 'EN' }
+  { name: "O'zbekcha", code: 'UZ', locale: 'uz' },
+  { name: "Русский", code: 'RU', locale: 'ru' },
+  { name: "English", code: 'EN', locale: 'en' }
 ];
+
+const currentLang = computed(() => {
+  const selected = languages.find((lang) => lang.locale === locale.value);
+  return selected ? selected.code : locale.value.toUpperCase();
+});
 
 const toggleDropdown = () => {
   isOpen.value = !isOpen.value;
 };
 
 const selectLang = (lang) => {
-  currentLang.value = lang.code;
+  locale.value = lang.locale;
+  localStorage.setItem(LOCALE_STORAGE_KEY, lang.locale);
   isOpen.value = false;
 };
 

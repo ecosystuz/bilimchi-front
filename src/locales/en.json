@@ -1,0 +1,10 @@
+{
+  "header": {
+    "nav": {
+      "findTutor": "Find a Tutor",
+      "courses": "Courses",
+      "educationCenters": "Education Centers",
+      "forParents": "For Parents"
+    }
+  }
+}

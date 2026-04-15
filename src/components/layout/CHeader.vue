@@ -17,16 +17,16 @@
       </div>
 
       <nav class="hidden md:flex items-center gap-8">
-        <a v-for="link in navLinks" :key="link.name" href="#" 
+        <a v-for="link in navLinks" :key="link.key" href="#" 
            class="relative text-sm font-semibold text-gray-700 hover:text-black transition-colors py-2 group">
-          {{ link.name }}
+          {{ t(link.labelKey) }}
           <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#3D3BFF] transition-all duration-300 group-hover:w-full"></span>
         </a>
       </nav>
 
       <div class="flex items-center gap-6">
         <CLanguageSwitcher />
-        <c-theme-switcher/>
+        <!-- <c-theme-switcher/> -->
         
         <button class="hidden lg:block text-sm font-bold text-black hover:text-[#3D3BFF] transition-colors">
           Log In
@@ -50,17 +50,18 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
+import { useI18n } from 'vue-i18n';
 import CLanguageSwitcher from '../common/CLanguageSwitcher.vue';
 import CButton from '../forms/CButton.vue';
-import CThemeSwitcher from '../UI/CThemeSwitcher.vue';
 
 const isScrolled = ref(false);
+const { t } = useI18n();
 
 const navLinks = [
-  { name: 'Find a Tutor' },
-  { name: 'Courses' },
-  { name: 'Education Centers' },
-  { name: 'For Parents' }
+  { key: 'findTutor', labelKey: 'header.nav.findTutor' },
+  { key: 'courses', labelKey: 'header.nav.courses' },
+  { key: 'educationCenters', labelKey: 'header.nav.educationCenters' },
+  { key: 'forParents', labelKey: 'header.nav.forParents' }
 ];
 
 const handleScroll = () => {

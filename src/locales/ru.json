@@ -1,0 +1,10 @@
+{
+  "header": {
+    "nav": {
+      "findTutor": "Найти репетитора",
+      "courses": "Курсы",
+      "educationCenters": "Учебные центры",
+      "forParents": "Для родителей"
+    }
+  }
+}
