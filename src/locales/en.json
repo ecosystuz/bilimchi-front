@@ -6,5 +6,37 @@
       "educationCenters": "Education Centers",
       "forParents": "For Parents"
     }
+  },
+  "hero": {
+    "title": {
+      "before": "Find great",
+      "after": "in Uzbekistan",
+      "rotating": {
+        "tutors": "teachers",
+        "mentors": "mentors"
+      }
+    },
+    "subtitle": "A service for selecting verified tutors with reviews based on many different criteria.",
+    "filters": {
+      "subject": {
+        "placeholder": "Subject",
+        "options": {
+          "mathematics": "Mathematics",
+          "english": "English",
+          "physics": "Physics",
+          "programming": "Programming"
+        }
+      },
+      "city": {
+        "placeholder": "City",
+        "options": {
+          "tashkent": "Tashkent",
+          "samarkand": "Samarkand",
+          "bukhara": "Bukhara",
+          "namangan": "Namangan"
+        }
+      }
+    },
+    "cta": "Start Search"
   }
 }

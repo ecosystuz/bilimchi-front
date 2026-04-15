@@ -6,5 +6,37 @@
       "educationCenters": "Ta'lim markazlari",
       "forParents": "Ota-onalar uchun"
     }
+  },
+  "hero": {
+    "title": {
+      "before": "O'zbekistonda zo'r",
+      "after": "toping",
+      "rotating": {
+        "tutors": "ustozlarni",
+        "mentors": "mentorlarni"
+      }
+    },
+    "subtitle": "Turli mezonlar asosida baholangan va tasdiqlangan ustozlarni topish xizmati.",
+    "filters": {
+      "subject": {
+        "placeholder": "Fan",
+        "options": {
+          "mathematics": "Matematika",
+          "english": "Ingliz tili",
+          "physics": "Fizika",
+          "programming": "Dasturlash"
+        }
+      },
+      "city": {
+        "placeholder": "Shahar",
+        "options": {
+          "tashkent": "Toshkent",
+          "samarkand": "Samarqand",
+          "bukhara": "Buxoro",
+          "namangan": "Namangan"
+        }
+      }
+    },
+    "cta": "Qidiruvni boshlash"
   }
 }

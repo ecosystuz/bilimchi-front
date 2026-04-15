@@ -5,7 +5,7 @@
       variantClasses[variant]
     ]"
   >
-    <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+    <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-white/20 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 right-0 w-32 h-32 bg-white/5 rounded-full -mb-10 -mr-10"></div>
 
     <div class="relative z-10 flex-col md:flex-row md:items-center justify-between gap-8">

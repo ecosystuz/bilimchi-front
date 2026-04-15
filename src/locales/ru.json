@@ -6,5 +6,37 @@
       "educationCenters": "Учебные центры",
       "forParents": "Для родителей"
     }
+  },
+  "hero": {
+    "title": {
+      "before": "Найдите",
+      "after": "в Узбекистане",
+      "rotating": {
+        "tutors": "учителей",
+        "mentors": "учителей"
+      }
+    },
+    "subtitle": "Сервис для подбора проверенных репетиторов с отзывами по разным критериям.",
+    "filters": {
+      "subject": {
+        "placeholder": "Предмет",
+        "options": {
+          "mathematics": "Математика",
+          "english": "Английский",
+          "physics": "Физика",
+          "programming": "Программирование"
+        }
+      },
+      "city": {
+        "placeholder": "Город",
+        "options": {
+          "tashkent": "Ташкент",
+          "samarkand": "Самарканд",
+          "bukhara": "Бухара",
+          "namangan": "Наманган"
+        }
+      }
+    },
+    "cta": "Начать поиск"
   }
 }
