@@ -6,7 +6,7 @@
     <div class="max-w-7xl mx-auto relative z-10">
       
       <div class="text-center md:text-left mb-16 fade-in-up">
-        <h2 class="text-4xl md:text-5xl lg:text-6xl font-black text-black tracking-tight">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-black text-black tracking-tight">
           {{ t('features.title', 'Чем удобен наш сайт?') }}
         </h2>
       </div>

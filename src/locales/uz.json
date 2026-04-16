@@ -40,7 +40,7 @@
     "cta": "Qidiruvni boshlash"
   },
   "features": {
-    "title": "Saytimizning qulayliklari nimalarda?",
+    "title": "Bilimchi ning qulayliklari nimalarda?",
     "payment": {
       "title": "Oldindan to'lovsiz, darsdan keyin to'lash",
       "description": "Siz hech narsani tavakkal qilmaysiz, chunki to'lovni dars tugaganidan so'nggina amalga oshirasiz."
@@ -64,5 +64,27 @@
       "creative": "Kreativ kontent orqali daromad topish",
       "investing": "To'g'ri sarmoya kiritish va xarajat qilishni o'rganish"
     }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Ko'p beriladigan savollar",
+    "title_start": "Savollaringiz",
+    "title_highlight": "bormi?",
+    "subtitle": "Platformamiz qanday ishlashi va darsni boshlash haqida eng muhim ma'lumotlar shu yerda.",
+    "cta_title": "Yana savollar qoldimi?",
+    "cta_sub": "Jamoamiz sizga istalgan payt yordam berishga tayyor.",
+    "cta_btn": "Biz bilan bog'laning →",
+    "q1": "To'lov qanday amalga oshiriladi?",
+    "a1": "To'lov har bir o'tilgan darsdan keyin to'g'ridan-to'g'ri repetitorga qilinadi. Biz o'quvchilardan komissiya olmaymiz va saytda oldindan to'lov talab qilmaymiz.",
+    "q2": "Saytingizning e'lonlar taxtasidan farqi nimada?",
+    "a2": "Biz har bir repetitorni sinchkovlik bilan tekshiramiz, diplomlarini tasdiqlaymiz va halol fikr-mulohazalarni yig'amiz. Tanlash tizimimiz sizning maqsadingizga mos ideal o'qituvchini topishga yordam beradi.",
+    "q3": "Repetitorlaringiz narxi qancha?",
+    "a3": "Narx o'qituvchining tajribasi va faniga qarab farq qiladi. Bizda yangi boshlovchi mutaxassislar ham, yuqori darajadagi ekspertlar ham bor — byudjetingizga mos variantni albatta topasiz.",
+    "q4": "Qo'shimcha xarajatlar bormi?",
+    "a4": "Yo'q, repetitor topish uchun platformadan foydalanish mutlaqo bepul. Siz faqat darslarning o'zi uchun to'laysiz.",
+    "q5": "Repetitorlar qaysi tillarda dars o'tishadi?",
+    "a5": "Ko'pchilik darslar o'zbek va rus tillarida olib boriladi. Shuningdek, bizda xorijiy tillar bo'yicha ham ko'plab o'qituvchilar bor.",
+    "q6": "Qaysi shaharlarda repetitorlar bor?",
+    "a6": "Repetitorlarimiz O'zbekiston bo'ylab faoliyat yuritadi: Toshkent, Samarqand, Buxoro va boshqa shaharlarda, shuningdek butun dunyo bo'ylab onlayn formatda."
   }
 }

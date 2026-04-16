@@ -11,10 +11,10 @@
     </div>
 
     <div class="relative z-10">
-      <h3 class="text-2xl lg:text-3xl font-black text-gray-900 mb-5 leading-tight group-hover:text-[#3D3BFF] transition-colors duration-300">
+      <h3 class="text-xl lg:text-2xl font-black text-gray-900 mb-4 leading-tight group-hover:text-[#3D3BFF] transition-colors duration-300">
         {{ title }}
       </h3>
-      <p class="text-gray-500 text-lg font-medium leading-relaxed">
+      <p class="text-gray-500 text-base font-medium leading-relaxed">
         {{ description }}
       </p>
     </div>

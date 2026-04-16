@@ -10,7 +10,7 @@
         
         <div class="relative flex-grow overflow-hidden rounded-[40px] shadow-sm min-h-[270px]">
           <img 
-            src="/images/reward3.jpg" 
+            src="/images/reward4.png" 
             alt="Professional Tutors"
             class="absolute inset-0 w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700"
           />

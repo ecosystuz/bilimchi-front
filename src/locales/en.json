@@ -64,5 +64,27 @@
       "creative": "Earn money with creative content",
       "investing": "Learn to invest and spend wisely"
     }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "title_start": "Got",
+    "title_highlight": "questions?",
+    "subtitle": "Everything you need to know about our platform.",
+    "cta_title": "Still have questions?",
+    "cta_sub": "Our team is happy to help you anytime.",
+    "cta_btn": "Contact us →",
+    "q1": "How is the payment made?",
+    "a1": "Payment is made directly to the tutor after each lesson. We do not charge students any commission and do not require prepayment on the site.",
+    "q2": "How is your site different from message boards?",
+    "a2": "We carefully vet every tutor, verify their diplomas, and collect honest reviews. Our matching system helps you find the perfect teacher specifically for your goals.",
+    "q3": "How much do your tutors cost?",
+    "a3": "Prices vary depending on the teacher's experience and the subject. We have both junior specialists and top-tier experts — you will always find an option that fits your budget.",
+    "q4": "Are there any additional costs?",
+    "a4": "No, using the platform to find a tutor is completely free. You only pay for the lessons themselves.",
+    "q5": "What languages do the tutors use?",
+    "a5": "Most lessons are conducted in Uzbek and Russian. We also have many foreign language teachers available.",
+    "q6": "In which cities are tutors available?",
+    "a6": "Our tutors work throughout Uzbekistan: Tashkent, Samarkand, Bukhara, and other cities, as well as online worldwide."
   }
 }
