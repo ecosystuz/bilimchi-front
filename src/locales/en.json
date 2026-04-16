@@ -53,5 +53,16 @@
       "title": "Flexible formats",
       "description": "Study online or in-person with a local teacher. We have tutors available across all cities in Uzbekistan."
     }
+  },
+  "collections": {
+    "title": "Online course collections for any goal",
+    "courses_count_suffix": "online courses",
+    "items": {
+      "freelance": "Be independent and work for yourself",
+      "it_start": "Start in IT without programming",
+      "remote": "Work freelance from anywhere in the world",
+      "creative": "Earn money with creative content",
+      "investing": "Learn to invest and spend wisely"
+    }
   }
 }

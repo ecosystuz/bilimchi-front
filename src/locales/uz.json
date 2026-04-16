@@ -53,5 +53,16 @@
       "title": "Istalgan ta'lim formati",
       "description": "Onlayn yoki o'z shahringizdagi o'qituvchi bilan yuzma-yuz shug'ullanishingiz mumkin (bizda O'zbekistonning barcha shaharlaridan repetitorlar mavjud)."
     }
+  },
+  "collections": {
+    "title": "Har qanday maqsad uchun onlayn-kurslar to'plami",
+    "courses_count_suffix": "ta onlayn-kurs",
+    "items": {
+      "freelance": "Hech kimga qaram bo'lmay, o'z ustida ishlash",
+      "it_start": "Dasturlashsiz IT sohasida faoliyatni boshlash",
+      "remote": "Dunyoning istalgan nuqtasidan frilansda ishlash",
+      "creative": "Kreativ kontent orqali daromad topish",
+      "investing": "To'g'ri sarmoya kiritish va xarajat qilishni o'rganish"
+    }
   }
 }

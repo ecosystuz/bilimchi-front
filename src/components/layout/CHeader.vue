@@ -7,7 +7,9 @@
   >
     <div class="container mx-auto px-6 flex items-center justify-between">
       
-      <div class="flex items-center gap-2 group cursor-pointer">
+      <router-link to="/"
+      >
+    <div class="flex items-center gap-2 group cursor-pointer">
         <div class="w-10 h-10 bg-[#3D3BFF] rounded-xl flex items-center justify-center rotate-3 group-hover:rotate-12 transition-transform duration-300">
           <span class="text-white font-bold text-xl">B</span>
         </div>
@@ -15,6 +17,7 @@
           Bilimchi<span class="text-[#3D3BFF]">.</span>
         </span>
       </div>
+    </router-link>
 
       <nav class="hidden md:flex items-center gap-8">
         <a v-for="link in navLinks" :key="link.key" href="#" 

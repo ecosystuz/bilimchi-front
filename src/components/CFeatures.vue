@@ -61,7 +61,7 @@
 import { useI18n } from 'vue-i18n';
 import CFeatureCard from './cards/CFeatureCard.vue';
 
-// Fallback текст добавлен прямо в t(), чтобы код работал даже если ключей пока нет в JSON
+
 const { t } = useI18n();
 </script>
 
