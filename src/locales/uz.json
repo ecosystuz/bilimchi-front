@@ -38,5 +38,20 @@
       }
     },
     "cta": "Qidiruvni boshlash"
+  },
+  "features": {
+    "title": "Saytimizning qulayliklari nimalarda?",
+    "payment": {
+      "title": "Oldindan to'lovsiz, darsdan keyin to'lash",
+      "description": "Siz hech narsani tavakkal qilmaysiz, chunki to'lovni dars tugaganidan so'nggina amalga oshirasiz."
+    },
+    "budget": {
+      "title": "Har qanday byudjetga mos",
+      "description": "Bizda turli narxlarda dars beradigan o'qituvchilar mavjud. O'zingizga ma'qul narxni ayting, biz mos repetitorni topib beramiz."
+    },
+    "format": {
+      "title": "Istalgan ta'lim formati",
+      "description": "Onlayn yoki o'z shahringizdagi o'qituvchi bilan yuzma-yuz shug'ullanishingiz mumkin (bizda O'zbekistonning barcha shaharlaridan repetitorlar mavjud)."
+    }
   }
 }

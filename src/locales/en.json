@@ -38,5 +38,20 @@
       }
     },
     "cta": "Start Search"
+  },
+  "features": {
+    "title": "Why choose our platform?",
+    "payment": {
+      "title": "Pay after the lesson, no upfront costs",
+      "description": "You risk nothing. You only pay after your lesson has been successfully completed."
+    },
+    "budget": {
+      "title": "Fits any budget",
+      "description": "We offer teachers at various price points. Simply tell us your budget, and we'll match you with the right tutor."
+    },
+    "format": {
+      "title": "Flexible formats",
+      "description": "Study online or in-person with a local teacher. We have tutors available across all cities in Uzbekistan."
+    }
   }
 }
